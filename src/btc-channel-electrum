@@ -6,5 +6,5 @@ sys.path.insert(1, '/usr/local/lib/python2.7/dist-packages')
 from btc_channel_electrum.application import Application
 
 if __name__ == "__main__":
-    app = Application(package="btc-system-channel", version="0.1")
+    app = Application(package="btc-channel-electrum", version="0.1")
     app.run(sys.argv[1:])
