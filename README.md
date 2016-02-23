@@ -15,16 +15,16 @@ Installation
 2. Install jsonrpclib:
 
   `$> sudo pip install jsonrpclib`
-2. [Download and install btc-channel](https://github.com/BitcoinComputer/btc-channel)
-3. Download and install btc-channel-electrum:
+3. [Download and install btc-channel](https://github.com/BitcoinComputer/btc-channel)
+4. Download the `btc-channel-electrum-0.1.tar.gz` from the latest release.
+5. Untar and install:
 
   ```
-    $> wget FILL_ME_IN
-    $> tar -xvf FILL_ME_IN
-    $> cd FILL_ME_IN
-    $> ./configure
-    $> make
-    $> sudo make install
+  $> tar -xvf btc-channel-electrum-0.1.tar.gz
+  $> cd btc-channel-electrum-0.1
+  $> ./configure
+  $> make
+  $> sudo make install
   ```
   
 Configuration
